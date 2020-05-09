@@ -16,8 +16,8 @@ attr_accessor :name, :roster
     # @roster.include?[name]
     # @roster[grade] ||= []
     # if roster[grade] << name
-    self.roster ||= []
-    self.roster << name
+    self.roster[grade] ||= []
+    self.roster[grade] << name
     
   end
   
