@@ -31,8 +31,8 @@ attr_accessor :name, :roster
   end
   
   def sort(grade)
-    @roster[name].sort   
+    # @roster[name].sort   
     self.roster.each do |grade, students|
-      grade.student
+      grade.students.sort
   end
 end
