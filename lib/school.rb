@@ -29,6 +29,7 @@ attr_accessor :name, :roster
   
   def grade(grade)
   @roster[grade]
+  
   # self.roster[grade]
  
   end
