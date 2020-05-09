@@ -32,5 +32,6 @@ attr_accessor :name, :roster
   
   def sort(grade)
     @roster[name].sort   
+    self.roster.each do 
   end
 end
