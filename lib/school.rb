@@ -14,9 +14,10 @@ attr_accessor :name, :roster
     #   @roster[grade] = [name]
     # end
     
-    @roster.include?[name] 
-    roster[grade] = name
+    # @roster.include?[name] 
+    # roster[grade] = name
     
+    @roster[grade] << name if !grade.include?(name) else @roster[grade] = grade
     # @roster[grade] ||= []
     # if roster[grade] << name
     
