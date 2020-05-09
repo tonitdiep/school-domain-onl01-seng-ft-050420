@@ -31,6 +31,6 @@ attr_accessor :name, :roster
   end
   
   def sort(grade)
-    @roster[name].sort
+    @roster[name].sort   
   end
 end
