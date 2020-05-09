@@ -24,9 +24,9 @@ attr_accessor :name, :roster
   end
   
   def grade(grade)
-  # @roster[grade]
+  @roster[grade]
   # self.roster[grade]
-  roster_hash = self.roster
-  roster_hahs[grade]
+  # roster_hash = self.roster
+  # roster_hahs[grade]
   end
 end
