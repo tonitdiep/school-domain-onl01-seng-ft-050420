@@ -10,12 +10,14 @@ attr_accessor :name, :roster
     if @roster.has_key?(grade)
       @roster[grade] << name
     else
-      
+      @roster[]
     end
     # @roster.include?[name]
     # @roster[grade] ||= []
     # if roster[grade]
   end
+  
+
   end
   
 end
