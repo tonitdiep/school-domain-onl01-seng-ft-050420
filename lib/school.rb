@@ -29,4 +29,8 @@ attr_accessor :name, :roster
   # roster_hash = self.roster
   # roster_hahs[grade]
   end
+  
+  def sort(grade)
+  
+  end
 end
