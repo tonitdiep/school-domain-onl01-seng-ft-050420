@@ -21,7 +21,7 @@ attr_accessor :name, :roster
     # # # if self.roster[grade] already exist, leave it alone,
     # # # else set self.roster[grade] = []
     # self.roster[grade] << name
-    @roster.has_key?(grade) ? roster[grade] << name : roster[grade] = [name]
+    # @roster.has_key?(grade) ? roster[grade] << name : roster[grade] = [name]
   end
   
 end
