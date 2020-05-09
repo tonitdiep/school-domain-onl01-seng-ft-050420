@@ -30,8 +30,8 @@ attr_accessor :name, :roster
   # roster_hahs[grade]
   end
   
-  def sort(grade)
-    # @roster[name].sort   
+  def sort
+    @roster[name].sort   
     
     # self.roster.each do |grade, students|
     #   self.roster[grade] students.sort! 
