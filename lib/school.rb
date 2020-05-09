@@ -37,11 +37,11 @@ attr_accessor :name, :roster
     # @roster.each do |grade, students|
     #   @roster[grade] = students.sort! 
     
-    @roster.select do |grade, students|
-        students.sort!
+    # @roster.select do |grade, students|
+    #     students.sort!
         
-    # @roster.each do |grade, students|
-    #   @roster[grade] = students.sort!
+    @roster.each do |grade, students|
+      @roster[grade] = students.sort!
     end
   end
 
