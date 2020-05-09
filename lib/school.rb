@@ -40,7 +40,8 @@ attr_accessor :name, :roster
     @roster.select do |grade, students|
         students.sort!
     # @roster.each do |grade, students|
-    #   students.sort!
+      students.sort!
+        grade == 10
     end
   end
 end
