@@ -14,19 +14,12 @@ attr_accessor :name, :roster
     #   @roster[grade] = [name]
     # end
     
-    # @roster.include?[name] 
-    # roster[grade] = name
-    
-    @roster[grade] << name if !grade.include?(name) else @roster[grade] = grade
-    # @roster[grade] ||= []
-    # if roster[grade] << name
-    
-    # self.roster[grade] ||= []
+ 
+    self.roster[grade] ||= []
     # # if self.roster[grade] already exist, leave it alone,
     # # else set self.roster[grade] = []
-    # self.roster[grade] << name
+    self.roster[grade] << name
     
   end
-end
-end
+  
 end
