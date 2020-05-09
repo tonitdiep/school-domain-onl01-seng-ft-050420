@@ -23,4 +23,5 @@ attr_accessor :name, :roster
     # @roster.has_key?(grade) ? roster[grade] << name : roster[grade] = [name]
   end
   
+  def 
 end
