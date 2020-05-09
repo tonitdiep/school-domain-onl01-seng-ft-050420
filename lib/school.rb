@@ -10,12 +10,14 @@ attr_accessor :name, :roster
   end  
   
   def add_student(name, grade)
-    if @roster.has_key?(grade)
-      @roster[grade] << name
-    else
-      @roster[grade] = [name]
-    end
+    # if @roster.has_key?(grade)
+    #   @roster[grade] << name
+    # else
+    #   @roster[grade] = [name]
+    # end
     
+    @roster[grade] ||= []
+    @roster[grade]
     # self.roster[grade] ||= [] #already expressed in initialized @roster Hash.new
     # # # if self.roster[grade] already exist, leave it alone,
     # # # else set self.roster[grade] = []
