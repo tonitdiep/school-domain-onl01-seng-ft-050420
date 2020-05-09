@@ -1,13 +1,12 @@
-require 'pry'
+
 class School
 attr_accessor :name, :roster
 #attr_reader
   
   def initialize(name)
     @name = name
-    # @roster = {}
-    @roster = Hash.new 
-    # {|h, k| h[k] = []}
+    @roster = {}
+    # @roster = Hash.new  {|h, k| h[k] = []}
   end  
   
   def add_student(name, grade)
