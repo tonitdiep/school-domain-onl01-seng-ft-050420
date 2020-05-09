@@ -38,7 +38,7 @@ attr_accessor :name, :roster
     #   @roster[grade] = students.sort! 
     
     @roster.select do |grade, students|
-      
+        students.sort!
     # @roster.each do |grade, students|
     #   students.sort!
     end
