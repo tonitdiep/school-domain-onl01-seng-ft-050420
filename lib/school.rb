@@ -1,3 +1,4 @@
+require 'pry'
 class School
 attr_accessor :name, :roster
 #attr_reader
@@ -7,6 +8,7 @@ attr_accessor :name, :roster
   end  
   
   def add_student(name, grade)
+    binding.pry
     if @roster.has_key?(grade)
       @roster[grade] << name
     else
