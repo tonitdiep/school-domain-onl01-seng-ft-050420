@@ -17,10 +17,10 @@ attr_accessor :name, :roster
     end
     
  
-    self.roster[grade] ||= []
-    # # if self.roster[grade] already exist, leave it alone,
-    # # else set self.roster[grade] = []
-    self.roster[grade] << name
+    # self.roster[grade] ||= [] #already expressed in initialized @roster Hash.new
+    # # # if self.roster[grade] already exist, leave it alone,
+    # # # else set self.roster[grade] = []
+    # self.roster[grade] << name
     
   end
   
