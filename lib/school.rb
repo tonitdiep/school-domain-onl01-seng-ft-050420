@@ -6,13 +6,11 @@ attr_accessor :name, :roster
     @roster = {}
   end  
   
- 
-  
   def add_student(name, grade)
     if @roster.has_key?(grade)
     # @roster.include?[name, grade]
     # @roster[grade] ||= []
-
+  end
   end
   
 end
