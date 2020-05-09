@@ -5,16 +5,16 @@ attr_accessor :name, :roster
   
   def initialize(name)
     @name = name
-    # @roster = {}
-    @roster = Hash.new {|h, k| h[k] = []}
+    @roster = {}
+    # @roster = Hash.new {|h, k| h[k] = []}
   end  
   
   def add_student(name, grade)
-    # if @roster.has_key?(grade)
-    #   @roster[grade] << name
-    # else
-    #   @roster[grade] = [name]
-    # end
+    if @roster.has_key?(grade)
+      @roster[grade] << name
+    else
+      @roster[grade] = [name]
+    end
     
  
     self.roster[grade] ||= []
