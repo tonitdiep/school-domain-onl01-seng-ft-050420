@@ -29,3 +29,4 @@ attr_accessor :name, :roster
   end
 end
 end
+end
