@@ -27,5 +27,5 @@ attr_accessor :name, :roster
     # self.roster[grade] << name
     
   end
-  
+end
 end
