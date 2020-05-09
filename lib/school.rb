@@ -17,7 +17,7 @@ attr_accessor :name, :roster
     # @roster[grade] ||= []
     # if roster[grade] << name
     self.roster ||= []
-    self.roster <<
+    self.roster << name
     
   end
   
